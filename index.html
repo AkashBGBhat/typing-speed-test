@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Typing Speed Test</title>
+  <!-- Looks live in style.css, behavior lives in script.js —
+       structure only in this file, same split as snake-game. -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Typing Speed Test</h1>
+
+  <!-- Display only: content is written by pickSentence() in script.js -->
+  <p id="sentence"></p>
+
+  <!-- NOTE: nothing between these tags — textarea treats anything
+       inside as its initial value (invisible whitespace bug). -->
+  <textarea id="typingBox" autofocus></textarea>
+
+  <p id="counter"></p>
+  <p id="timer">0.0s</p>
+  <p id="result"></p>
+
+  <button id="tryAgainBtn">Try Again</button>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
